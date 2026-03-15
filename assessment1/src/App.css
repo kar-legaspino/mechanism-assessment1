@@ -1,0 +1,150 @@
+/* Professional Page Enhancements */
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth transitions for interactive elements */
+a,
+button,
+.card {
+  transition: all 0.3s ease;
+}
+
+/* Enhanced card hover effects */
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Professional button styling */
+.btn {
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+/* Enhanced image styling */
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+/* Professional section spacing */
+section {
+  margin-bottom: 4rem;
+}
+
+/* Enhanced testimonial section */
+.testimonial-section {
+  position: relative;
+}
+
+/* Enhanced gallery section */
+.gallery-section {
+  position: relative;
+}
+
+/* Professional form styling */
+.form-control:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+/* Responsive main container */
+.responsive-main-container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-family: var(--heading);
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-family: var(--sans);
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Responsive Testimonial Section */
+.testimonial-title {
+  font-size: clamp(2rem, 6vw, 4rem);
+  margin-bottom: 0.5em;
+  font-family: var(--heading);
+  font-weight: 600;
+  color: #2c3e50;
+}
+.testimonial-desc {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-family: var(--sans);
+}
+.testimonial-section {
+  margin-top: 120px;
+}
+
+/* Responsive Gallery Section */
+.gallery-title {
+  font-size: clamp(2rem, 6vw, 4rem);
+  margin-bottom: 0.5em;
+  font-family: var(--heading);
+  font-weight: 600;
+  color: #2c3e50;
+}
+.gallery-desc {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-family: var(--sans);
+}
+.gallery-section {
+  margin-top: 120px;
+}
+
+@media (max-width: 900px) {
+  .responsive-main-container {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .testimonial-section,
+  .gallery-section {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-main-container {
+    padding-left: 0.2rem !important;
+    padding-right: 0.2rem !important;
+  }
+  .testimonial-title,
+  .gallery-title {
+    font-size: 2rem;
+  }
+  .testimonial-desc,
+  .gallery-desc {
+    font-size: 1rem;
+  }
+  .testimonial-section,
+  .gallery-section {
+    margin-top: 30px;
+    padding: 0.5rem;
+  }
+}
