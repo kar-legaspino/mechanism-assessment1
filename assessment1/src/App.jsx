@@ -107,7 +107,7 @@ function App() {
               xs={12}
               className="text-center text-lg-start"
             >
-              <h1 className="hero-title mb-3">This is the Hero section</h1>
+              <h1 className="hero-title mb-3">This is the Hero Section</h1>
               <p className="hero-subtitle mb-4">
                 This is a sample paragraph: Discover the Eco Travel water jug -
                 the perfect companion for eco-conscious families. Made from
